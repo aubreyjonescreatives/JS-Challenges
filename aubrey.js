@@ -25,3 +25,17 @@ return d - d2;
 
 console.log(newDate())
 
+
+
+let string = ["Sugar", "Flour", "Baking Soda", "Milk"]; 
+string.reverse(); 
+
+console.log(string)
+
+
+
+let space = "Hello World!"; 
+let underScore = space.replace(" ", "_"); 
+
+console.log(underScore)
+
