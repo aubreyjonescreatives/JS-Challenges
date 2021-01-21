@@ -59,12 +59,17 @@ return space.replace(" ", "_");
 console.log(spacetoUnderscore())
 
 
-
-
-//write a function which can convert the time input given in 12 hours
-
+//write a function which helps to achieve multiply(a)(b) and returns product of a and b 
 
 
 
+let a = Math.random() * 100
+let b = Math.random() * 1000
 
-//write a function to truncate a string to a certain number of letters
+
+function multiplyRandom() {
+
+    return a * b
+
+}
+console.log(a, b, multiplyRandom())
