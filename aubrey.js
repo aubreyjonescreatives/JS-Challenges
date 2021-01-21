@@ -73,3 +73,17 @@ function multiplyRandom() {
 
 }
 console.log(a, `*`, b, `=`, multiplyRandom())
+
+
+//Sort the given array of integers in ascending or descending order 
+
+
+let months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December']
+
+function sortMonths() {
+
+ return  months.sort()
+
+
+}
+console.log(sortMonths())
