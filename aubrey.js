@@ -21,11 +21,7 @@ let d = new Date(2021, 10)
 let d2 = new Date(2021, 4)
 
 
-function newDate() {
-
-return d - d2; 
-
-}
+let newDate = () => d - d2
 
 
 console.log(newDate())
