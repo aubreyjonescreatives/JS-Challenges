@@ -2,10 +2,6 @@
 
 
 
-let d = new Date(2021, 10)
-let d2 = new Date(2021, 4)
-
-
 
 
 //let validDates = d, d2 => d - d2; 
@@ -18,6 +14,12 @@ let d2 = new Date(2021, 4)
 
 
 // accept two valid dates and returns the difference between them
+
+
+
+let d = new Date(2021, 10)
+let d2 = new Date(2021, 4)
+
 
 function newDate() {
 
