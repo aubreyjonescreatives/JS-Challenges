@@ -34,18 +34,29 @@ console.log(newDate())
 //Write a function to reverse a string
 
 let string = ["Sugar", "Flour", "Baking Soda", "Milk"]; 
-string.reverse(); 
 
-console.log(string)
+function reverseString() {
+
+return string.reverse(); 
+
+}
+
+console.log(reverseString())
 
 
 //Write a function to replace all spaces of the string with underscores
 
 
-let space = "Hello World!"; 
-let underScore = space.replace(" ", "_"); 
 
-console.log(underScore)
+
+let space = "Hello World!"; 
+
+function spacetoUnderscore() {
+
+return space.replace(" ", "_"); 
+
+}
+console.log(spacetoUnderscore())
 
 
 
