@@ -72,4 +72,4 @@ function multiplyRandom() {
     return a * b
 
 }
-console.log(a, b, multiplyRandom())
+console.log(a, `*`, b, `=`, multiplyRandom())
