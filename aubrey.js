@@ -67,11 +67,8 @@ let a = Math.random() * 100
 let b = Math.random() * 1000
 
 
-function multiplyRandom() {
+let multiplyRandom = () => a * b
 
-    return a * b
-
-}
 console.log(a, `*`, b, `=`, multiplyRandom())
 
 
@@ -82,6 +79,7 @@ let numbersA = [45, 1, 8, 20, 80]
 let numbersB = [60, 12, 2, 0, 9]
 
 numbersA.sort((a, b) => a - b)
+numbersB.sort((a, b) => b - a)
 
-console.log(numbersA)
+console.log(numbersA, numbersB)
 
